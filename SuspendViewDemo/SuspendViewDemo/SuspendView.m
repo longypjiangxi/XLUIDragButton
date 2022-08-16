@@ -69,6 +69,7 @@ printf("%s %s 第%d行:%s\n\n",[dateString UTF8String],[LRString UTF8String] ,__
 - (void)didChangeStatusBarOrientation {
 
     self.orientation = [UIApplication sharedApplication].statusBarOrientation;
+    self.imageView.frame = CGRectMake((SCREEN_WIDTH - 100)/2, (SCREEN_HEIGHT - 76)/2, 100, 76);
 //    DLog(@"===%zd=====%zd",[[UIDevice currentDevice] orientation],[UIApplication sharedApplication].statusBarOrientation);
     //请注意，UIInterfaceOrientationAndScapeLeft等于UIDeviceOrientation AndScapeRight（反之亦然）。
     //这是因为向左旋转设备需要向右旋转内容。
