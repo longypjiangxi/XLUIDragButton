@@ -9,7 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol SuspendViewDelegate <NSObject>
+//点击事件
 - (void)suspendViewButtonClick:(UIButton*)sender;
+//显示是否隐藏提示框
 - (void)showHideAlertView;
 @end
 @interface SuspendView : UIView
@@ -25,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) UIImageView *imageView;
 @property (nonatomic, assign) UIInterfaceOrientation orientation;
 @property (nonatomic, weak) id<SuspendViewDelegate> delegate;
+//隐藏&显示
 - (void)showSuspendView;
 - (void)dismissSuspendView;
 @end
