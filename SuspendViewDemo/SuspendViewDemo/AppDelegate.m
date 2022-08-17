@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  DCGAMES
+//  
 //
 //  Created by LYP on 2022/8/4.
 //
