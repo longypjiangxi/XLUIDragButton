@@ -4,7 +4,7 @@ iOS-OC 全局悬浮球，悬浮按钮，拖拽拖动，贴边吸附，隐藏和�
 
 好用的话麻烦点个Star💗
 
-简书demo演示，gif图
+简书demo演示，gif图，代码功能介绍
 https://www.jianshu.com/p/30aeb1d506d3
 
 
